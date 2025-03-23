@@ -44,6 +44,3 @@ To exit the search engine, simply enter 'q' when prompted for a query.
 - The search engine preprocesses the documents by tokenizing the text, removing punctuation, converting text to lowercase, removing stopwords, and performing stemming using the Porter stemming algorithm.
 - The search engine uses cosine similarity to calculate the relevance scores between the query and the documents. The documents with the highest relevance scores are considered the most relevant.
 - The search engine saves the index data (TF-IDF matrix, vectorizer, document paths, and titles) as a pickle file for faster loading in subsequent runs. The index file can be updated by using the `--update-index` flag during the indexing step.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
